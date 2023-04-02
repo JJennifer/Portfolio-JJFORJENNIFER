@@ -5,11 +5,10 @@
 }
 
 body {
-    position: relative;
     background-color: #FDF5E6;
   }
 
-  .header {
+.header {
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FDE7E8;
@@ -17,10 +16,11 @@ body {
 }
 
 .header nav {
+    
     padding-top: 5px;
     margin-right: 20px;
     float: right;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -31,32 +31,72 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    justify-content: flex-end;
 }
 
-p{
-    text-align: center;
-}
-
-img {
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    /* Margin property */
-    margin: 10px;
-    /* Border property */
-    border: 5px solid #FDE7E8;
+#photo {
+    height: 400px;
+    width: 20%;
+    margin-bottom: 25px;
     position: relative;
-    top: 20px;
-    left: 32%;
+    left: 40%;
+}
+
+.name {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.me p {
+    text-align: left;
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+
+}
+
+.org {
+  padding: 5px;
+  text-align: left;
+  position: relative;
+  left: 300px;
+  bottom: 30px;
   }
 
+.org header {
+    position: absolute;
+    display:inline-block;
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+  }
+
+.org img {
+    border-style: solid;
+    width: 30%;
+    min-width: 300px;
+}
+
 .contact ul {
-    text-align: center;
+    text-align: left;
+    position: relative;
+    left: 300px;
+    bottom: 5px;
 }
 .contact ul li {
     padding-bottom: 30px;
     margin-right: 5%;
     display: inline;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    position: relative;
+    bottom: 20px;
 }
+
+/* @media screen and (max-width: 768px) {
+    main
+    {
+      flex-direction: column;
+    }
+  } */
