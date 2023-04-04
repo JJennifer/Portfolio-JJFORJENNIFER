@@ -9,15 +9,22 @@ body {
   }
 
 .header {
-    padding: 30px;
+    padding: 30px 30px 30px 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FDE7E8;
     color: black;
 }
 
-.header nav {
+.header h1 {
+    font-size: 50px;
+    background-color: #FDF5E6;
+    display: inline;
+    padding: 10px 20px 10px 50px;
     
-    padding-top: 5px;
+}
+
+.header nav {
+    padding-top: 50px;
     margin-right: 20px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,11 +38,26 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    justify-content: flex-end;
+    
 }
 
+.banner {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://cdn.shopify.com/s/files/1/1143/5434/products/Francoise_Floral_by_Clare_V_Blush_design_4d5da9d8-2d00-4bff-b81b-c927f96e3ee2_400x.jpg?v=1633378017");
+}
+
+.banner h2{
+    position: relative;
+    top: 70px;
+    display: inline;
+    float: right;
+    background-color: #FDF5E6;
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;
+}
 #photo {
-    height: 400px;
     width: 20%;
     margin-bottom: 25px;
     position: relative;
@@ -44,27 +66,42 @@ body {
 
 .name {
     position: relative;
-    top: 100px;
-    left: 100px;
+    top: 60px;
+    margin-left: 150px;
+}
+
+.name h3{
+    position: relative;
+    width: 150px;
+    font-size: 30px;
+    border-right: 5px solid #13293d;
 }
 
 .me p {
-    text-align: left;
     position: relative;
-    left: 300px;
-    bottom: 30px;
+    margin: 0% 0% 0% 20%;
+    bottom: 100px;
 
 }
 
-.org {
-  padding: 5px;
-  text-align: left;
-  position: relative;
-  left: 300px;
-  bottom: 30px;
-  }
+.me h3 {
+    height: 100px;
+}
 
-.org header {
+.work3 h3 {
+    height: 60%;
+    
+}
+
+.work3 div {
+  margin: 0% 0% 0% 20%;
+  padding: 5px;
+  position: relative;
+  bottom: 35px;
+  
+  }
+  
+.work3 header {
     position: absolute;
     display:inline-block;
     padding: 10px;
@@ -72,17 +109,38 @@ body {
     color: #fff;
   }
 
-.org img {
+.img2 {
+    position: relative;
+    
+}
+.img2 img{
+    width: 60%;
     border-style: solid;
-    width: 30%;
-    min-width: 300px;
+    border-width: 3px;
 }
 
-.contact ul {
-    text-align: left;
+.img3 {
+    display: inline-block;
+    height: 400px;
+}
+.img3 img {
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    width: 45%;
+    height: 40%;
+    margin: 10px 25px 0px 10px;
+    
+}
+
+.contact {
     position: relative;
-    left: 300px;
-    bottom: 5px;
+   
+}
+.contact ul {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
 }
 .contact ul li {
     padding-bottom: 30px;
@@ -94,8 +152,9 @@ body {
     bottom: 20px;
 }
 
-/* @media screen and (max-width: 768px) {
-    main
+/* @media screen and (-width: 768px) {
+    nav
+    .name
     {
       flex-direction: column;
     }
