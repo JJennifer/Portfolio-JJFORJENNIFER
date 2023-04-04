@@ -36,12 +36,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-![Jennifer's Portfolio webpage screenshot.](./)
-
+![Jennifer's Portfolio webpage screenshot.](./assests/jjennifer.github.io_Portfolio-JJFORJENNIFER_.png)
 
 
 ## Deploy Application 
 
+[Jennifer's Portfolio](https://jjennifer.github.io/Portfolio-JJFORJENNIFER/)
 
 
 
