@@ -94,7 +94,7 @@ body {
 }
 
 .work3 div {
-  margin: 0% 0% 0% 20%;
+  margin: 0% -10% 0% 15%;
   padding: 5px;
   position: relative;
   bottom: 35px;
@@ -122,6 +122,7 @@ body {
 .img3 {
     display: inline-block;
     height: 400px;
+    width: 30%;
 }
 .img3 img {
     display: inline-block;
@@ -152,10 +153,10 @@ body {
     bottom: 20px;
 }
 
-/* @media screen and (-width: 768px) {
-    nav
+/* @media screen and (max-width: 768px) {
+    .header
     .name
     {
-      flex-direction: column;
+      flex-direction: row;
     }
   } */
